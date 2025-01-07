@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Trang web mẫu HTML cơ bản">
+    <title>Trang Chủ</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Đường dẫn tới file CSS -->
+    <link rel="icon" href="favicon.ico" type="image/x-icon"> <!-- Biểu tượng trang -->
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Trang Chủ</a></li>
+                <li><a href="#about">Giới Thiệu</a></li>
+                <li><a href="#services">Dịch Vụ</a></li>
+                <li><a href="#contact">Liên Hệ</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero">
+            <h1>Chào Mừng Đến Với Trang Web</h1>
+            <p>Đây là trang web mẫu HTML cơ bản.</p>
+            <a href="#about" class="button">Tìm Hiểu Thêm</a>
+        </section>
+
+        <section id="about">
+            <h2>Giới Thiệu</h2>
+            <p>Chúng tôi cung cấp các giải pháp tốt nhất để đáp ứng nhu cầu của bạn.</p>
+        </section>
+
+        <section id="services">
+            <h2>Dịch Vụ</h2>
+            <ul>
+                <li>Dịch vụ 1</li>
+                <li>Dịch vụ 2</li>
+                <li>Dịch vụ 3</li>
+            </ul>
+        </section>
+
+        <section id="contact">
+            <h2>Liên Hệ</h2>
+            <form action="/submit" method="post">
+                <label for="name">Tên:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Tin nhắn:</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit">Gửi</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 - Trang web của bạn. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
